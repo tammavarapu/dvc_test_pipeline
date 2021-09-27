@@ -1,5 +1,5 @@
 
-data_source: 
+data_source: C:\Users\SambasivaRaoT\LearningPath\iNeuron\DataScience\DataScience_ML_DL_Masterclass\DATA\winequality-red.csv
 
 artifacts:
   artifacts_dir: artifacts
