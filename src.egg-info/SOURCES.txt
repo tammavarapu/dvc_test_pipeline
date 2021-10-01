@@ -2,6 +2,8 @@ README.md
 setup.py
 src/__init__.py
 src/load_save.py
+src/remote_files_transfer.py
+src/remote_source_loc.py
 src.egg-info/PKG-INFO
 src.egg-info/SOURCES.txt
 src.egg-info/dependency_links.txt
