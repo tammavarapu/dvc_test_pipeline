@@ -7,7 +7,7 @@ import os
 def get_data(config_path):
     config = read_yaml(config_path)
     remote_data_path = config['data_source']
-    df = pd.read_csv(remote_data_path,sep=';')
+    df = pd.read_csv(remote_data_path,sep=';',header=None)
     # print(df.head())
 
     # save dataset in the local dir
