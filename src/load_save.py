@@ -1,4 +1,4 @@
-from src.utils.all_utils import create_dir, read_yaml
+from src.util.all_utils import create_dir, read_yaml
 import argparse
 import pandas as pd
 import os
