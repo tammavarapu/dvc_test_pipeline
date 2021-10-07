@@ -19,3 +19,8 @@ def create_dir(dirs : list):
     except Exception as e:
         print(e)
 
+
+def save_local_df(data,data_path,index_status=False):
+    data.to_csv(data_path, index = index_status)
+    print(f"Data is saved at {data_path}")
+    

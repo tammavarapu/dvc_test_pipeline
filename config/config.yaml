@@ -1,8 +1,12 @@
 
-#data_source: C:\Users\SambasivaRaoT\LearningPath\iNeuron\DataScience\DataScience_ML_DL_Masterclass\DATA\winequality-red.csv
-data_source: s3://datascience-ml-dl-masterclass/input_data/winequality-red.csv
+data_source: C:\Users\SambasivaRaoT\LearningPath\iNeuron\DataScience\DataScience_ML_DL_Masterclass\input_data\winequality-red.csv
+#data_source: s3://datascience-ml-dl-masterclass/input_data/winequality-red.csv
 
 artifacts:
   artifacts_dir: artifacts
   raw_local_dir: raw_local_dir
   raw_local_file: data.csv
+
+  split_data_dir: split_data_dir
+  train: train.csv
+  test: test.csv
