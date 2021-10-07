@@ -28,8 +28,8 @@ def split_save_data(config_path,params_path):
 
     create_dir(dirs=[os.path.join(artifacts_dir,split_data_dir)])
 
-    train_data_filename = config["artifacts"]["train_data_dir"]
-    test_data_filename = config["artifacts"]["test_data_dir"]
+    train_data_filename = config["artifacts"]["train"]
+    test_data_filename = config["artifacts"]["test"]
     
     train_data_path = os.path.join(artifacts_dir, split_data_dir, train_data_filename)
     test_data_path = os.path.join(artifacts_dir,split_data_dir,test_data_filename)
