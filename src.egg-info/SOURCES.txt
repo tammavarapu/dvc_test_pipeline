@@ -5,6 +5,7 @@ src/load_save.py
 src/remote_files_transfer.py
 src/remote_source_loc.py
 src/split_data.py
+src/train.py
 src.egg-info/PKG-INFO
 src.egg-info/SOURCES.txt
 src.egg-info/dependency_links.txt

@@ -17,7 +17,7 @@ setup(
     #license="GNU",
     python_requires=">=3.7",
     install_requires=[
-        'dvc==2.7.3',
+        'dvc',
         'pandas',
         'scikit-learn'
     ]

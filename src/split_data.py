@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 
 def split_save_data(config_path,params_path):
     config = read_yaml(config_path)
-    params = read_csv(params_path)
+    params = read_yaml(params_path)
 
     # save dataset in the local dir
     artifacts_dir = config["artifacts"]["artifacts_dir"]
